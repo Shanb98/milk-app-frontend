@@ -49,7 +49,7 @@ const ECommerce: React.FC = () => {
       </div>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 xl:grid-cols-4 2xl:gap-7.5">
 
-        <CardDataStats title="Milk Quantitiy" total="3.46 ml" rate="0.43%" levelUp>
+        <CardDataStats title="Milk Quantitiy" total="3.46 l" rate="0.43%" levelUp>
           <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
             width="612.000000pt" height="612.000000pt" viewBox="0 0 612.000000 612.000000"
             preserveAspectRatio="xMidYMid meet"

@@ -70,13 +70,12 @@ const TableThree = () => {
                     {packageItem.invoiceDate}
                   </p>
                 </td>
-                <td className="border-b border-[#eee] py-5 px-4  dark:border-strokedark ">
-                  <h5 className="font-medium text-black dark:text-white">
-                    {packageItem.name}
-                  </h5>
-                  <p className="text-sm">{packageItem.price} ml</p>
+                <td className="border-b  border-[#eee] py-5 px-10 dark:border-strokedark">
+                  <p className="text-black  dark:text-white">
+                    {packageItem.price} l
+                  </p>
                 </td>
-                <td className="border-b border-[#eee] py-5 px-4 dark:border-strokedark">
+                <td className="border-b  border-[#eee] py-5 px-12 dark:border-strokedark">
                   <p className="text-black dark:text-white">
                     {packageItem.quality}
                   </p>
