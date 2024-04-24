@@ -4,7 +4,7 @@ import ChartOne from '../../components/Charts/ChartOne';
 import ChartTwo from '../../components/Charts/ChartTwo';
 import TableOne from '../../components/Tables/TableThree';
 import DefaultLayout from '../../layout/DefaultLayout';
-import userSix from '../../images/user/user-06.png';
+import userSix from '../../images/user/SR.jpg';
 
 
 const ECommerce: React.FC = () => {
@@ -12,29 +12,29 @@ const ECommerce: React.FC = () => {
     <DefaultLayout>
       <div className="px-4 pb-6 pt-18 text-center lg:pb-8 xl:pb-11.5">
         <div className="relative z-30 mx-auto -mt-22 h-30 w-full max-w-30 rounded-full bg-white/20 p-1 backdrop-blur sm:h-44 sm:max-w-44 sm:p-3">
-          <div className="relative drop-shadow-2">
-            <img src={userSix} alt="profile" />
+          <div className="relative drop-shadow-2 rounded-full">
+            <img  className=" rounded-full" src={userSix} alt="profile" />
 
           </div>
         </div>
         <div className="mt-4">
           <h3 className="mb-1.5 text-2xl font-semibold text-black dark:text-white">
-            Danish Heilium
+          Somapala Senanayake
           </h3>
-          <p className="font-medium">Employer - Milk Provider</p>
-          <p className="font-medium">EMPM - 000001</p>
+          <p className="font-medium">Employer Type - Milk Provider</p>
+          <p className="font-medium">Employer ID  - EMP000001</p>
           <div className="mx-auto mt-4.5 mb-5.5 grid max-w-94 grid-cols-3 rounded-md border border-stroke py-2.5 shadow-1 dark:border-strokedark dark:bg-[#37404F]">
             <div className="flex flex-col items-center justify-center gap-1 border-r border-stroke px-4 dark:border-strokedark xsm:flex-col">
               <span className="font-semibold text-black dark:text-white">
-                Rank
+              District
               </span>
-              <span className="text-sm">01</span>
+              <span className="text-sm">Nuwara Eliya</span>
             </div>
             <div className="flex flex-col items-center justify-center gap-1 border-r border-stroke px-4 dark:border-strokedark xsm:flex-col">
               <span className="font-semibold text-black dark:text-white">
-                Total supply
+              Area
               </span>
-              <span className="text-sm">12 ml</span>
+              <span className="text-sm">Ambewela</span>
             </div>
             <div className="flex flex-col items-center justify-center gap-1 px-4 xsm:flex-col">
               <span className="font-bold text-black dark:text-white">
@@ -44,15 +44,6 @@ const ECommerce: React.FC = () => {
             </div>
           </div>
 
-          <div className="mx-auto mt-4.5 mb-5.5 grid max-w-72 grid-cols-2 rounded-md border border-stroke py-2.5 shadow-1 dark:border-strokedark dark:bg-[#37404F]">
-
-            <span className="font-semibold text-black dark:text-white">
-              Total Payment
-            </span>
-            <span className="text-sm">Rs 25000.00 /=</span>
-
-
-          </div>
 
         </div>
       </div>
@@ -75,7 +66,7 @@ const ECommerce: React.FC = () => {
           </svg>
 
         </CardDataStats>
-        <CardDataStats title="Total Rank" total="A" rate="4.35%" levelUp>
+        <CardDataStats title="Quality Grade" total="A" rate="4.35%" levelUp>
           <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
             width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
             preserveAspectRatio="xMidYMid meet"
@@ -116,6 +107,15 @@ const ECommerce: React.FC = () => {
         </CardDataStats>
       </div>
 
+          <div className="mx-auto mt-4.5 mb-5.5 grid max-w-72 grid-cols-2 rounded-md border border-stroke py-2.5 pl-8 shadow-1 dark:border-strokedark dark:bg-[#37404F]">
+
+            <span className="font-semibold text-black dark:text-white">
+              Total Payment
+            </span>
+            <span className="text-sm">Rs 25000.00 /=</span>
+
+
+          </div>
       <div className="mt-4 grid grid-cols-12 gap-4 md:mt-6 md:gap-6 2xl:mt-7.5 2xl:gap-7.5">
 
 
@@ -123,7 +123,7 @@ const ECommerce: React.FC = () => {
           <TableOne />
         </div>
         <ChartOne />
-        <ChartTwo />
+
       </div>
     </DefaultLayout>
   );

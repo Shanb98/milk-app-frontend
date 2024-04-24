@@ -3,4 +3,6 @@ export type Package = {
   price: number;
   invoiceDate: string;
   status: string;
+  quality:string,
+  payment: string
 };

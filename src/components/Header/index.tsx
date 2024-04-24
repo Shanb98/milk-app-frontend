@@ -90,16 +90,14 @@ const Header = (props: {
 
               <input
                 type="text"
-                placeholder="Type to search..."
+                placeholder="Type Employer Name or Id ..."
                 className="w-full text-gray-900 border border-gray-300 rounded-full bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500 h-8 pl-9 pr-4 text-black focus:outline-none dark:text-white xl:w-125"
               />
             </div>
           </form>
 
         </div>
-        <a href="#" className=" mr-24 bg-white p-2 rounded-full">
-          <div><img src={qr} alt="Logo" height={30} width={30} /></div>
-        </a>
+
         <div className="flex items-center gap-3 2xsm:gap-7">
 
           <ul className="flex items-center gap-2 2xsm:gap-4">

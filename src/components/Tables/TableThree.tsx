@@ -5,25 +5,33 @@ const packageData: Package[] = [
     name: 'Business package',
     price: 10.0,
     invoiceDate: `Jan 13,2023`,
+    quality:'A+',
     status: 'Paid',
+    payment:'2500.00'
   },
   {
     name: 'Standard Package',
     price: 59.0,
     invoiceDate: `Jan 13,2023`,
+    quality:'A+',
     status: 'Paid',
+    payment:'2500.00'
   },
   {
     name: 'Business Package',
     price: 99.0,
     invoiceDate: `Jan 13,2023`,
+    quality:'A',
     status: 'Unpaid',
+    payment:'1500.00'
   },
   {
     name: 'Standard Package',
     price: 59.0,
     invoiceDate: `Jan 13,2023`,
+    quality:'B-',
     status: 'Pending',
+    payment:'2400.00'
   },
 ];
 
@@ -35,10 +43,16 @@ const TableThree = () => {
           <thead>
             <tr className="bg-gray-2 text-left dark:bg-meta-4">
               <th className="min-w-[220px] py-4 px-4 font-medium text-black dark:text-white xl:pl-11">
-                Quantitiy
+              Last Date
               </th>
               <th className="min-w-[150px] py-4 px-4 font-medium text-black dark:text-white">
-                Last Date
+               Milk Quantitiy
+              </th>
+              <th className="min-w-[150px] py-4 px-4 font-medium text-black dark:text-white">
+              Quality Grade
+              </th>
+              <th className="min-w-[150px] py-4 px-4 font-medium text-black dark:text-white">
+              Payment
               </th>
               <th className="min-w-[120px] py-4 px-4 font-medium text-black dark:text-white">
                 Status
@@ -51,7 +65,12 @@ const TableThree = () => {
           <tbody>
             {packageData.map((packageItem, key) => (
               <tr key={key}>
-                <td className="border-b border-[#eee] py-5 px-4 pl-9 dark:border-strokedark xl:pl-11">
+                                <td className="border-b border-[#eee] py-5 px-4 pl-9 dark:border-strokedark xl:pl-11">
+                  <p className="text-black dark:text-white">
+                    {packageItem.invoiceDate}
+                  </p>
+                </td>
+                <td className="border-b border-[#eee] py-5 px-4  dark:border-strokedark ">
                   <h5 className="font-medium text-black dark:text-white">
                     {packageItem.name}
                   </h5>
@@ -59,7 +78,12 @@ const TableThree = () => {
                 </td>
                 <td className="border-b border-[#eee] py-5 px-4 dark:border-strokedark">
                   <p className="text-black dark:text-white">
-                    {packageItem.invoiceDate}
+                    {packageItem.quality}
+                  </p>
+                </td>
+                <td className="border-b border-[#eee] py-5 px-4 dark:border-strokedark">
+                  <p className="text-black dark:text-white">
+                    Rs {packageItem.payment}
                   </p>
                 </td>
                 <td className="border-b border-[#eee] py-5 px-4 dark:border-strokedark">
