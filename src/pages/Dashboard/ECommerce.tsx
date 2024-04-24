@@ -79,7 +79,7 @@ const ECommerce: React.FC = () => {
           </svg>
 
         </CardDataStats>
-        <CardDataStats title="Temperature" total="12.0 ℃" rate="2.59%" levelUp>
+        <CardDataStats title="Temperature" total="28.0 ℃" rate="2.59%" levelUp>
           <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
             width="229.000000pt" height="257.000000pt" viewBox="0 0 229.000000 277.000000"
             preserveAspectRatio="xMidYMid meet"
@@ -92,7 +92,7 @@ const ECommerce: React.FC = () => {
           </svg>
 
         </CardDataStats>
-        <CardDataStats title="PH Value" total="6.46" rate="0.95%" levelDown>
+        <CardDataStats title="PH Value" total="6.78" rate="0.95%" levelDown>
           <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
             width="268.000000pt" height="193.000000pt" viewBox="0 0 268.000000 193.000000"
             preserveAspectRatio="xMidYMid meet"

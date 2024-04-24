@@ -3,7 +3,7 @@ import { Package } from '../../types/package';
 const packageData: Package[] = [
   {
     name: 'Business package',
-    price: 10.0,
+    price: 9.8,
     invoiceDate: `Jan 13,2023`,
     quality:'A+',
     status: 'Paid',
@@ -11,7 +11,7 @@ const packageData: Package[] = [
   },
   {
     name: 'Standard Package',
-    price: 59.0,
+    price: 5,
     invoiceDate: `Jan 13,2023`,
     quality:'A+',
     status: 'Paid',
@@ -19,7 +19,7 @@ const packageData: Package[] = [
   },
   {
     name: 'Business Package',
-    price: 99.0,
+    price: 7,
     invoiceDate: `Jan 13,2023`,
     quality:'A',
     status: 'Unpaid',
@@ -27,7 +27,7 @@ const packageData: Package[] = [
   },
   {
     name: 'Standard Package',
-    price: 59.0,
+    price: 4,
     invoiceDate: `Jan 13,2023`,
     quality:'B-',
     status: 'Pending',
